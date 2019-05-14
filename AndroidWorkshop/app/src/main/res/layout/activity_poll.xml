@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#add8e6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waka Predictions"
+            android:textSize="50dp"
+            android:textColor="#FFF"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFF"
+            android:textSize="19dp"
+            android:gravity="center_horizontal"
+            android:text="How long will he perform for?"/>
+
+        <EditText
+            android:id="@+id/how_many"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write in the number of minutes"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFF"
+            android:textSize="19dp"
+            android:gravity="center_horizontal"
+            android:text="How many times will he say 'What's Up Dartmouth?'"/>
+
+        <NumberPicker
+            android:id="@+id/number_picky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+        </NumberPicker>
+
+        <Button
+            android:id="@+id/finish_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</ScrollView>

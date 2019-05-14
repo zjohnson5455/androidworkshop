@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#add8e6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What will Waka do?"
+            android:textSize="50dp"
+            android:textColor="#FFF"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFF"
+            android:textSize="19dp"
+            android:gravity="center_horizontal"
+            android:text="Make your predictions. Compete against your friends. Win prizes."/>
+
+
+        <!-- https://stackoverflow.com/questions/6267733/android-resizing-imageview-in-xml -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="600dp"
+            android:maxHeight="600dp"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:src="@drawable/waka"
+            />
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</ScrollView>
