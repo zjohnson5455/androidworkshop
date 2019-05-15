@@ -17,3 +17,7 @@ Dartmouth College DALI Lab
 12. Make sure both "Generate Layout File" and "Backwards Compatibility" are checked.
 13. Keep default names (should be MainActivity and activity_main) and hit Finish.
 
+#### Sources:
+
+https://thoughtbot.com/blog/android-imageview-scaletype-a-visual-guide 
+Other links in comments
