@@ -21,3 +21,7 @@ Dartmouth College DALI Lab
 
 https://thoughtbot.com/blog/android-imageview-scaletype-a-visual-guide 
 Other links in comments
+
+
+#### Contact:
+Zachary.D.Johnson.20@dartmouth.edu
